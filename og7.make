@@ -12,7 +12,7 @@
 ; Each makefile should begin by declaring the core version of Drupal that all
 ; projects should be compatible with.
   
-core = 6.x
+core = 7.x
   
 ; API version
 ; ------------
@@ -28,40 +28,27 @@ api = 2
 ; alternative core projects like Pressflow. Note that makefiles included with
 ; install profiles *should not* include a core project.
   
-; Use pressflow instead of Drupal core:
-projects[pressflow][type] = "core"
-projects[pressflow][download][type] = "bzr"
-projects[pressflow][download][url] = "lp:pressflow/6.x"
+projects[] = drupal
 
   
 
 ; Modules
 ; --------
-projects[admin] = 6.x-1.0-beta5
-projects[admin][subdir] = contrib
-projects[cck][subdir] = contrib
-projects[jquery_ui][subdir] = contrib
-projects[jquery_update][subdir] = contrib
+projects[ctools][subdir] = contrib
 projects[views][subdir] = contrib
 
 projects[og][subdir] = contrib
 projects[og][download][type] = git
 projects[og][download][url] = git://github.com/AllPlayers/og.git
-projects[og][download][revision] = 'DRUPAL-6--2'
+projects[og][download][revision] = '3d80769ca1b2f5418a41'
 
 ; Themes
 ; --------
-projects[] = rubik
-projects[] = tao
 
   
   
 ; Libraries
 ; ---------
-libraries[jquery][download][type] = "file"
-libraries[jquery][download][url] = "https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"
-libraries[jqueryui][download][type] = "file"
-libraries[jqueryui][download][url] = "https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.min.js"
 
 
 
