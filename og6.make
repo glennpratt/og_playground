@@ -40,6 +40,8 @@ projects[pressflow][download][url] = "lp:pressflow/6.x"
 projects[admin] = 6.x-1.0-beta5
 projects[admin][subdir] = contrib
 projects[cck][subdir] = contrib
+projects[ctools][subdir] = contrib
+projects[features][subdir] = contrib
 projects[jquery_ui][subdir] = contrib
 projects[jquery_update][subdir] = contrib
 projects[views][subdir] = contrib
@@ -47,7 +49,7 @@ projects[views][subdir] = contrib
 projects[og][subdir] = contrib
 projects[og][download][type] = git
 projects[og][download][url] = git://github.com/AllPlayers/og.git
-projects[og][download][revision] = 'DRUPAL-6--2'
+projects[og][download][branch] = '6.x-2.x-d7-permissions-backport'
 
 ; Themes
 ; --------
