@@ -1,11 +1,4 @@
 ; $Id$
-;
-; ----------------
-; Generated makefile from http://drushmake.me
-; Permanent URL: http://drushmake.me/file.php?token=457b8c3d4f13
-; ----------------
-;
-; This is a working makefile - try it! Any line starting with a `;` is a comment.
   
 ; Core version
 ; ------------
@@ -35,12 +28,11 @@ projects[] = drupal
 ; Modules
 ; --------
 projects[ctools][subdir] = contrib
+projects[entity][subdir] = contrib
+projects[features][subdir] = contrib
 projects[views][subdir] = contrib
 
 projects[og][subdir] = contrib
-projects[og][download][type] = git
-projects[og][download][url] = git://github.com/AllPlayers/og.git
-projects[og][download][revision] = '3d80769ca1b2f5418a41'
 
 ; Themes
 ; --------
