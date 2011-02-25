@@ -1,11 +1,4 @@
 ; $Id$
-;
-; ----------------
-; Generated makefile from http://drushmake.me
-; Permanent URL: http://drushmake.me/file.php?token=457b8c3d4f13
-; ----------------
-;
-; This is a working makefile - try it! Any line starting with a `;` is a comment.
   
 ; Core version
 ; ------------
@@ -44,8 +37,10 @@ projects[] = drupal
 ; --------
 projects[admin] = 6.x-1.0-beta5
 projects[admin][subdir] = contrib
+projects[autoload][subdir] = contrib
 projects[cck][subdir] = contrib
 projects[ctools][subdir] = contrib
+projects[dbtng][subdir] = contrib
 projects[features][subdir] = contrib
 projects[jquery_ui][subdir] = contrib
 projects[jquery_update][subdir] = contrib
